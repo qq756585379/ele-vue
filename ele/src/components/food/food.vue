@@ -1,0 +1,23 @@
+<template>
+  <div class="food" v-show="showDetails"></div>
+</template>
+
+<script type="text/ecmascript-6">
+  export default {
+    props: {
+      food: Object
+    }
+  };
+</script>
+
+<style lang="stylus" rel="stylesheet/stylus" scoped>
+  .food
+    position fixed
+    left 0
+    top 0
+    right 0
+    bottom 48px
+    width 100%
+    background white
+    z-index 30
+</style>
