@@ -24,6 +24,7 @@
           Vue.set(this.food, 'count', 0);
         }
         this.food.count++;
+        // 通知做动画
         this.$root.eventHub.$emit('cart.add', event.target);
       },
       decreaseCart() {

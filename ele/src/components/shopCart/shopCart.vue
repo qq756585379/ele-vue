@@ -41,6 +41,7 @@
         </div>
       </transition>
     </div>
+
     <transition name="fade-backdrop">
       <div class="backdrop" v-show="showBackdrop" @click="hideBackdrop"></div>
     </transition>

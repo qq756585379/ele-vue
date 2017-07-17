@@ -52,7 +52,6 @@
   import Vue from 'vue';
 
   const ERR_OK = 0;
-  const eventHub = new Vue();
 
   export default {
     props: { seller: Object },
